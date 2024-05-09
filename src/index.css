@@ -1,0 +1,216 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+  margin: 20px;
+  animation: fadeIn 0.5s ease forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1295px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 969px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  /* border: solid 1px black;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(58, 58, 58, 0.172); */
+  background-color: #bbc1c424;
+}
+
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgsushi {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+
+  margin: 10px;
+}
+
+.ing-container {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ingridients {
+  display: flex;
+  padding: 0.3em;
+  border: 1px rgba(0, 0, 0, 0.139) solid;
+  width: auto;
+  margin: 0.1em;
+  border-radius: 1em;
+}
+
+.padding-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 0;
+
+  border-radius: 1em;
+}
+
+.product-quatity {
+  display: flex;
+  padding: 10px;
+  font-size: 0.8em;
+  border: 1px rgba(0, 0, 0, 0.136) solid;
+  border-radius: 1em;
+  background-color: #fdd524f6;
+  color: rgb(0, 0, 0);
+}
+
+.product-weight {
+  display: flex;
+  padding: 10px;
+  font-size: 0.8em;
+  border: 1px rgba(0, 0, 0, 0.136) solid;
+  border-radius: 1em;
+  background-color: #f44806;
+  color: white;
+}
+
+.twosec {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 10px;
+}
+
+.product-price {
+  display: flex;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px rgba(0, 0, 0, 0.136) solid;
+  border-radius: 1em;
+  background-color: #227654;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-button {
+  width: 30%;
+  height: calc(100vh / 4);
+
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 3em;
+  transition: 0.6s;
+  animation: butOn 0.5s linear;
+}
+
+.sushiButton {
+  background-color: #ffb84c;
+  color: white;
+}
+
+@keyframes butOn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sushiButton:hover {
+  background-color: #03aed2;
+  color: white;
+  cursor: pointer;
+}
+
+.setsButton {
+  background-color: #f266ab;
+  color: white;
+}
+
+.setsButton:hover {
+  background-color: #68d2e8;
+  color: white;
+  cursor: pointer;
+}
+
+.philadelphiaButton {
+  background-color: #a459d1;
+  color: white;
+}
+
+.philadelphiaButton:hover {
+  background-color: #fdde55;
+  color: white;
+  cursor: pointer;
+}
+.californiaButton {
+  background-color: #2cd3e1;
+  color: white;
+}
+
+.californiaButton:hover {
+  background-color: #f8d082;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 920px) {
+  .sushiButton {
+    width: 100%;
+  }
+  .setsButton {
+    width: 100%;
+  }
+  .philadelphiaButton {
+    width: 100%;
+  }
+  .californiaButton {
+    width: 100%;
+  }
+}

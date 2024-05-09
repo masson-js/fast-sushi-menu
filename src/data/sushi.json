@@ -1,0 +1,93 @@
+[
+  {
+    "id": "su1",
+    "name": "Philadelphia Classic",
+    "ingidients": [
+      "łosoś 🐟",
+      "ogórek 🥒",
+      "serek philadelphia 🫕",
+      "ryż 🍚",
+      "nori 🍙",
+      "imbir ⚪️",
+      "wasabi 🟢"
+    ],
+    "emogi": "🍣",
+    "weight": 320,
+    "quantity": 8,
+    "price": 41.9
+  },
+  {
+    "id": "su2",
+    "name": "Philadelphia Krewetka",
+    "ingidients": [
+      "krewetka 🍤",
+      "ogórek 🥒",
+      "serek philadelphia 🫕",
+      "ryż 🍚",
+      "nori 🍙",
+      "sos sojowy 🍶",
+      "imbir ⚪️",
+      "wasabi  🟢"
+    ],
+    "emogi": "🍣",
+    "weight": 300,
+    "quantity": 8,
+    "price": 42.9
+  },
+  {
+    "id": "su3",
+    "name": "Phil. Łosoś Opalany",
+    "ingidients": [
+      "łosoś opalany 🐟🔥",
+      "ogórek 🥒",
+      "serek philadelphia 🫕",
+      "ryż 🍚",
+      "nori 🍙",
+      "sos sojowy 🍶",
+      "imbir ⚪️",
+      "wasabi  🟢"
+    ],
+    "emogi": "🍣",
+    "weight": 320,
+    "quantity": 8,
+    "price": 42.9
+  },
+  {
+    "id": "su4",
+    "name": "Philadelphia Węgorz",
+    "ingidients": [
+      "węgorz 🐟🔥",
+      "ogórek 🥒",
+      "serek philadelphia 🫕",
+      "ryż 🍚",
+      "nori 🍙",
+      "sos unagi 🍶",
+      "imbir ⚪️",
+      "wasabi  🟢",
+      "sezam 🌸"
+    ],
+    "emogi": "🍣",
+    "weight": 320,
+    "quantity": 8,
+    "price": 42.9
+  },
+  {
+    "id": "su5",
+    "name": "Philadelphia Węgorz",
+    "ingidients": [
+      "węgorz 🐟🔥",
+      "ogórek 🥒",
+      "serek philadelphia 🫕",
+      "ryż 🍚",
+      "nori 🍙",
+      "sos unagi 🍶",
+      "imbir ⚪️",
+      "wasabi  🟢",
+      "sezam 🌸"
+    ],
+    "emogi": "🍣",
+    "weight": 320,
+    "quantity": 8,
+    "price": 42.9
+  }
+]

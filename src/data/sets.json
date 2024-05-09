@@ -1,0 +1,59 @@
+[
+  {
+    "id" : "su1",
+    "name": "Pieczony Set",
+    "ingidients": [
+      "Pieczony Krab roll 🦀🔥",
+      "Pieczony łosoś roll 🐟🔥",
+      "Rolka w tempurze Krab 🦀",
+      "Maki łosoś teriyaki 🐟"
+    ],
+    "weight": 1120,
+    "quantity": 32,
+    "price" : 117.90
+  },
+  {
+    "id" : "se2",
+    "name": "Phila classic Set",
+    "ingidients": [
+      "Philadelphia Classic 4szt 🍙",
+      "Philadelphia krewetka 4szt 🍤",
+      "Philadelphia łosoś opalany 4szt 🐟🔥",
+      "Philadelphia węgorz 4 szt 🐟",
+      "gunkany łosoś spicy 3szt 🌶🐟",
+      "maki ogórek 8szt 🥒"
+    ],
+    "weight": 1120,
+    "quantity": 27,
+    "price" : 128.90
+  },
+  {
+    "id" : "se3",
+    "name": "Mix Set",
+    "ingidients": [
+      "Awokado dragon 4 szt 🥑",
+      "Tygrowy dragon 4 szt 🍤",
+      "Rolka W Tempurze krab 8szt 🦀",
+      "Maki rzodkiew 8szt",
+      "Kalifornia w sezamie łosoś 8szt 🐟"
+    ],
+    "weight": 1120,
+    "quantity": 32,
+    "price" : 129.90
+  },
+  {
+    "id" : "se4",
+    "name": "Mix Set",
+    "ingidients": [
+      "Awokado dragon 4 szt 🥑",
+      "Tygrowy dragon 4 szt 🍤",
+      "Rolka W Tempurze krab 8szt 🦀",
+      "Maki rzodkiew 8szt",
+      "Kalifornia w sezamie łosoś 8szt 🐟"
+    ],
+    "weight": 1120,
+    "quantity": 32,
+    "price" : 129.90
+  }
+
+]

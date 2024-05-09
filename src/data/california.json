@@ -1,0 +1,73 @@
+[
+  {
+    "id" : "ph1",
+    "name": "Classic",
+    "ingidients": [
+      "łosoś",
+      "ogórek",
+      "serek philadelphia",
+      "ryż",
+      "nori",
+      "sos sojowy",
+      "imbir",
+      "wasabi"
+    ],
+    "weight": 320,
+    "quantity": 8,
+    "price" : 41.90
+  },
+  {
+    "id" : "ph2",
+    "name": "Krewetka",
+    "ingidients": [
+      "krewetka",
+      "ogórek",
+      "serek philadelphia",
+      "ryż",
+      "nori",
+      "sos sojowy",
+      "imbir",
+      "wasabi"
+    ],
+    "weight": 300,
+    "quantity": 8,
+    "price" : 42.90
+  },
+  {
+    "id" : "ph3",
+    "name": "Łosoś Opalany",
+    "ingidients": [
+      "łosoś opalany",
+      "ogórek",
+      "serek philadelphia",
+      "ryż",
+      "nori",
+      "sos sojowy",
+      "imbir",
+      "wasabi"
+    ],
+    "weight": 320,
+    "quantity": 8,
+    "price" : 42.90
+  },
+  {
+    "id" : "ph4",
+    "name": "Węgorz",
+    "ingidients": [
+      "węgorz",
+      "ogórek",
+      "serek philadelphia",
+      "ryż",
+      "nori",
+      "sos unagi",
+      "sos sojowy",
+      "imbir",
+      "wasabi",
+      "sezam"
+    ],
+    "weight": 300,
+    "quantity": 8,
+    "price" : 49.90
+  }
+
+]
