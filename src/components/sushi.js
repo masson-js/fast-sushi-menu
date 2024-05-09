@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 
-
-function Sushi({sushiList}) {
+function SushiSection({ sushiList }) {
   const [sushies, setSushiNames] = useState([]);
 
-  useEffect(() =>
-  function sushiDisplayHandler() {
-    setSushiNames(sushiList)
-  }, [sushiList])
+  useEffect(
+    function sushiDisplayHandler() {
+      setSushiNames(sushiList);
+    },
+    [sushiList]
+  );
 
   function Ing(product) {
     return product.map((e) => (
@@ -30,7 +31,9 @@ function Sushi({sushiList}) {
               <p className="product-quatity">Iłość: {product.quantity} szt.</p>
               <span className="product-weight">{product.weight} gr</span>
             </div>
-            <span className="product-price">Price: {product.price.toFixed(2)} PLN</span>
+            <span className="product-price">
+              Price: {product.price.toFixed(2)} PLN
+            </span>
           </div>
         </div>
       ))}
@@ -38,4 +41,4 @@ function Sushi({sushiList}) {
   );
 }
 
-export default Sushi;
+export default SushiSection;

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Sushi from "./sushi";
+import SushiSection from "./sushi";
 import SetsSection from "./sets";
 import PhiladelphiaSection from "./philadelphiaS";
 import CaliforniaSection from "./california";
@@ -43,7 +43,7 @@ export default function GlobalMenu() {
         >
           Sushi
         </button>
-        <div>{sushiClicked && <Sushi sushiList={sushiList} />}</div>
+        <div>{sushiClicked && <SushiSection sushiList={sushiList} />}</div>
 
         <button
           className="menu-button setsButton"

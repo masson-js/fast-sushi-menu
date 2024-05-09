@@ -148,10 +148,6 @@
   animation: butOn 0.5s linear;
 }
 
-.sushiButton {
-  background-color: #ffb84c;
-  color: white;
-}
 
 @keyframes butOn {
   0% {
@@ -162,6 +158,10 @@
   }
 }
 
+.sushiButton {
+  background-color: #ffb84c;
+  color: white;
+}
 .sushiButton:hover {
   background-color: #03aed2;
   color: white;

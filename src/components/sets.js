@@ -1,18 +1,14 @@
 import { useEffect, useState } from "react";
 
-
-function SetsSection({setsList}) {
+function SetsSection({ setsList }) {
   const [sushies, setSushiNames] = useState([]);
 
   useEffect(
-  function sushiDisplayHandler() {
-    setSushiNames(setsList)
-  }, [setsList])
-  // useEffect(() => {
-  //   const sushi = JSON.parse(JSON.stringify(sushiarray));
-
-  
-  // }, []);
+    function sushiDisplayHandler() {
+      setSushiNames(setsList);
+    },
+    [setsList]
+  );
 
   function Ing(product) {
     return product.map((e) => (
@@ -35,7 +31,9 @@ function SetsSection({setsList}) {
               <p className="product-quatity">Iłość: {product.quantity} szt.</p>
               <span className="product-weight">{product.weight} gr</span>
             </div>
-            <span className="product-price">Price: {product.price.toFixed(2)} PLN</span>
+            <span className="product-price">
+              Price: {product.price.toFixed(2)} PLN
+            </span>
           </div>
         </div>
       ))}
